@@ -9,7 +9,7 @@ function ItemButton ({item, actionType}) {
             <div>
                 <Item item={item}/>
                 <button onClick={handleClick}>
-                    {item.price}
+                    {actionType === 'buy' ? item.price : 'boire'}
                 </button>
             </div>
             
