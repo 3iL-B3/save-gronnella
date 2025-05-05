@@ -1,11 +1,7 @@
-import React from 'react';
 
 const CombatPage = () => {
-  return (
-    <div>
+  return(
       <h1>Combat</h1>
-      
-    </div>
   );
 };
 
