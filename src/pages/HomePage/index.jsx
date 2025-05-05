@@ -10,7 +10,7 @@ function HomePage() {
 
   const handleCharacterSelect = (character) => {
     localStorage.setItem('selectedCharacter', JSON.stringify(character));
-    navigate('/game');
+    navigate('/jeu');
   };
 
   return (
