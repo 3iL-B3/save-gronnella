@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Character from './Components/Character';
+import Character from '../../components/Character';
 import charactersData from '../../public/data/charactres.json'
 import './style.css';
 
